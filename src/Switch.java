@@ -8,7 +8,6 @@ public class Switch {
 
         Scanner console = new Scanner(System.in);
 
-
         System.out.print("Enter number 1-3 : ");
         day = console.nextInt();
 
@@ -29,7 +28,7 @@ public class Switch {
 
                 break;
 
-                default:
+            default:
                 System.out.println("Invalid input");
         }
     }
